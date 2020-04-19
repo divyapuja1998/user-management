@@ -58,7 +58,7 @@
     }
 
     // Validation for the form.
-    $("#registration").validate({
+    $("#user-edit,#registration").validate({
       // Specify validation rules
       rules: {
         // The key name on the left side is the name attribute
@@ -69,19 +69,29 @@
           minlength: 2,
           lettersonly: true
         },
+        name: {
+          required: true,
+          minlength: 2,
+          lettersonly: true
+        },
         email: {
           required: true,
           // Specify that email should be validated
           // by the built-in "email" rule
           email: true
         },
-        mobile: "required",
+        mobile: {
+          required: true,
+          minlength:9,
+          maxlength:10,
+          number: true
+        }
       },
       // Specify validation error messages
       messages: {
         username: "Please enter Lettersonly name",
         email: "Please enter a valid email address",
-        mobile: "Please enter your mobile number",
+        mobile: "Please enter your 10 digit mobile number",
       },
       // Make sure the form is submitted to the destination defined
       // in the "action" attribute of the form when valid

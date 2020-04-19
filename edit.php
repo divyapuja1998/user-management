@@ -87,8 +87,8 @@
     <div class="left">
       <input type="hidden" name="new" value="1" />
       <input name="id" type="hidden" value="<?php echo $row['id'];?>" />
-      <p><input type="text" name="name" placeholder="Enter Name" required value="<?php echo $row['username'];?>" /></p>
-      <p><input type="text" name="email" placeholder="Enter Your Email" required value="<?php echo $row['email'];?>" /></p>
+      <p><input type="text" name="name" placeholder="Enter Name" required disabled value="<?php echo $row['username'];?>" /></p>
+      <p><input type="text" name="email" placeholder="Enter Your Email" required disabled value="<?php echo $row['email'];?>" /></p>
       <p><input type="number" name="mobile" placeholder="Mobile Number" required value="<?php echo $row['mobile'];?>" /></p>
       <p><textarea name="user_address" placeholder="Your Address" id="address" required><?php echo $row['user_address'];?></textarea></p>
       <div class="row-items">
