@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 18, 2020 at 08:59 PM
+-- Generation Time: Apr 19, 2020 at 08:35 AM
 -- Server version: 5.7.25
 -- PHP Version: 7.2.14
 
@@ -38,8 +38,8 @@ CREATE TABLE `images` (
 --
 
 INSERT INTO `images` (`id`, `name`, `image`, `uid`) VALUES
-(11, 'Thank you for making Payment on your RBL Bank Credit Card - deepakaryan1988 gmail com - Gmail.png', 'upload/Thank you for making Payment on your RBL Bank Credit Card - deepakaryan1988 gmail com - Gmail.png', '21'),
-(12, 'DIVYA.jpg', 'upload/DIVYA.jpg', '22');
+(12, 'DIVYA.jpg', 'upload/DIVYA.jpg', '22'),
+(13, 'images.png', 'upload/images.png', '21');
 
 -- --------------------------------------------------------
 
@@ -66,7 +66,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `trn_date`, `mobile`, `user_address`, `user_city`, `user_dob`, `user_gender`, `user_degree`) VALUES
-(21, 'admin', 'admin@gmail.com', '21232f297a57a5a743894a0e4a801fc3', '2020-04-18 20:51:06', '9898778899', 'Moshi', 'Pune', '04/05/2020', 'Female', 'Post_Graduate'),
+(21, 'admin', 'admin@gmail.com', '21232f297a57a5a743894a0e4a801fc3', '2020-04-19 08:33:17', '9898778899', 'Moshi', 'Pune', '04/05/2020', 'Female', 'Post_Graduate'),
 (22, 'Divya', 'divya@gmail.com', '21232f297a57a5a743894a0e4a801fc3', '2020-04-18 20:51:47', '8899778877', 'moshi', 'Mumbai', '12/09/2019', 'Female', 'Post_Graduate');
 
 --
@@ -93,7 +93,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `images`
 --
 ALTER TABLE `images`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `users`
