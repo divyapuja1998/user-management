@@ -83,7 +83,7 @@
   }else {
 ?>
 <div>
-  <form name="form" method="post" action="" enctype='multipart/form-data'>
+  <form name="form" method="post" action="" id="user-edit" enctype='multipart/form-data'>
     <div class="left">
       <input type="hidden" name="new" value="1" />
       <input name="id" type="hidden" value="<?php echo $row['id'];?>" />

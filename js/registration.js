@@ -58,13 +58,13 @@
     }
 
     // Validation for the form.
-    $("#register-form").validate({
+    $("#registration").validate({
       // Specify validation rules
       rules: {
         // The key name on the left side is the name attribute
         // of an input field. Validation rules are defined
         // on the right side
-        name: {
+        username: {
           required: true,
           minlength: 2,
           lettersonly: true
@@ -79,7 +79,7 @@
       },
       // Specify validation error messages
       messages: {
-        firstname: "Please enter your firstname",
+        username: "Please enter Lettersonly name",
         email: "Please enter a valid email address",
         mobile: "Please enter your mobile number",
       },

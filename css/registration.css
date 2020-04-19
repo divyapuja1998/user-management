@@ -59,3 +59,12 @@ body{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+label.error {
+    display: block;
+    color: red;
+}
+
+.error {
+    border-color: red !important;
+}

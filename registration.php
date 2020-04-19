@@ -103,7 +103,7 @@
       <div class="row-items">
         <span class="item-label">City:</span>
         <span class="item-input" >
-          <select name="user_city" required>
+          <select name="user_city">
             <option value="Pune" selected>Pune</option>
             <option value="Mumbai">Mumbai</option>
             <option value="Lohegaon">Lohegaon</option>
@@ -114,13 +114,13 @@
           </select>
         </span>
       </div>
-      <input type="text" name="user_dob" placeholder="Date of Birth" id="datepicker" />
+      <input type="text" name="user_dob" placeholder="Date of Birth" id="datepicker" required/>
 
       <div class="row-items radio-boxes">
         <span class="label-radio">Gender:</span>
         <span class="item-radio">
           <input type="radio" name="user_gender" value="Male"><span>Male</span>
-          <input type="radio" name="user_gender" value="Female"><span>Female</span>
+          <input type="radio" name="user_gender" value="Female" checked><span>Female</span>
           <input type="radio" name="user_gender" value="Other"><span>Other</span>
         </span>
       </div>
