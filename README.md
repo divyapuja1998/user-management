@@ -15,3 +15,7 @@ password: admin
 7. Normal user credential:
 username: Divya
 password: admin
+
+8. Test scenario:-
+ 8.1 If you login via admin, you would be able to edit/delete any records available.
+ 8.2 If you login via normal user, you would be able to only edit your data which is available.
