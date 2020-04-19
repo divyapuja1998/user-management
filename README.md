@@ -7,3 +7,5 @@ username: root
 password: root
 3. Import registration.sql into your newly created DB which is named as "registration".
 4. If you want to change DB configuration, go to db.php file and change it accordingly.
+5. Make sure upload folder has 777 permission. For this one, you can open your terminal and run following command:
+chmod -R 777 upload
